@@ -25,3 +25,17 @@ for item in lista1 + lista2:
 print("Terceira lista sem elemntos repetidos: ", lista3)
 
 ####################################################################
+
+lista = ['a', 'b', 'c', 'd', 'e']
+del (lista[1])
+print(lista)
+
+####################################################################
+
+lista = list(range(101))
+print(lista)
+
+del lista[40:61]
+print(lista)
+
+
